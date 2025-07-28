@@ -10,7 +10,7 @@ Desafiar os alunos a realizar o deploy completo de uma aplicação fullstack (Re
 - Comunicação via IngressController NGINX.
 
 ## 1.2 Tecnologias envolvidas
-Kubernetes (Kind, Minikube ou cluster real)
+Kubernetes (Kind)
 - **Frontend:**	Deployment + Service (ClusterIP)
 - **Backend:**	Deployment + Service (ClusterIP)
 - **PostgreSQL:**	StatefulSet + Service (ClusterIP) + PVC
