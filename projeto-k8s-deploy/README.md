@@ -12,7 +12,17 @@ Este projeto consiste no deploy de uma aplicação web (React + Flask + PostgreS
 * Kind (Kubernetes in Docker)
 * Kubectl
 
-OBS: Os nomes dos Containers Docker que se encontram em `backend/deployment.yaml` e `frontend/deployment.yaml` precisam ser alterados para o seu usuário. Basta acessar os arquivos e alterar de forma manual.
+OBS: Caso ocorra problema ao subir os containers altere os nomes dos containers Docker que se encontram em `backend/deployment.yaml` e `frontend/deployment.yaml` para o seu usuário do Dockerhub, levando em conta que voce fez um docker build e um docker push. Basta acessar os arquivos e alterar de forma manual. 
+
+Comandos para build e push:
+
+```bash
+docker build -t SEU_USUARIO/flask-backend:v1 ../Projeto01/backend/ 
+docker push SEU_USUARIO/flask-backend:v1
+
+docker build -t SEU_USUARIO/react-frontend:v1 ../Projeto01/frontend/
+docker push SEU_USUARIO/react-frontend:v1
+```
 
 ## Instruções
 
