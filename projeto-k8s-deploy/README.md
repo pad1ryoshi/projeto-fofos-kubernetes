@@ -5,12 +5,14 @@ Este projeto consiste no deploy de uma aplicação web (React + Flask + PostgreS
 ## Integrantes
 
 * José Rodrigo S. Padilha - 20231380017
-* 
+* Gabriel Lavor de Albuquerque - 20231380037
 
 ## Requisitos
 * Docker e Docker Compose
 * Kind (Kubernetes in Docker)
 * Kubectl
+
+OBS: Os nomes dos Containers Docker que se encontram em `backend/deployment.yaml` e `frontend/deployment.yaml` precisam ser alterados para o seu usuário. Basta acessar os arquivos e alterar de forma manual.
 
 ## Instruções
 
